@@ -8,7 +8,7 @@ body {
     line-height 1.6;
 }  
  header {
-    background-color: #4cafaa;
+    background-color: #c08eb3;
     color: rgb(255, 255, 255)
     padding: 20px;
     text-align: center;
@@ -38,7 +38,7 @@ main img {
     margin: 20px 0;
 }
 footer {
-    background-color: #333333;
+    background-color: #91617ef5;
     color: white;
     text-align: center;
     padding: 10px;
@@ -50,14 +50,14 @@ p {
     font-size: 1.1em;
 }
 a {
-    color: #4CAF50;
+    color: #52a79b;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 img {
-    border: 5px solid #4CAF50;
+    border: 5px solid #6fb0ca;
     border-radius: 10px;
 }
 main a[href="malito:"] {
