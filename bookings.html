@@ -4,7 +4,7 @@
 
 <head>
 
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width." initial-scale="1.0">
 
@@ -42,13 +42,22 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>    
                         <li class="nav-item">
                             <a class="nav-link" href="bookings.html">BOOKINGS</a>
+                        </li>    
                         <li class="nav-item">
-                            <a class="nav-link" href="Table.html" >TABLE</a>
+                            <a class="nav-link" href="Table.html">TABLE</a>
+                        </li>    
                         <li class="nav-item">
-                            <a class="nav-link" href="Breakfast.html" >BREAKFAST</a>    
+                            <a class="nav-link" href="Breakfast.html">BREAKFAST</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback.html">CONFIRMATION</a>
+                        </li>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="T&C'S.html">T&C'S</a>
+                        </li>       
                     </ul>
                 </div>
             </div>      
@@ -78,8 +87,11 @@
    <label for="confirmPassword">Confirm your password</label>
    <input type="text" id="cPassword" name="confirmPass" placeholder="Confirm Password" required > 
 
-  <label for="dob">Enter your Date of Birth:</label>
-  <input type="date" id="dob" name="dob" max="2008-03-13" placeholder="Your Date of Birth" required >
+  <div class="mb-3">
+    <label for="dofbirth">Date of Birth:</label>
+    <input type="date" class="form-control" placeholder="Date of Birth" id="dofbirth" name="dofbirth" max="2008-01-01">
+    <div class="invalid-feedback">Booking is reserved for individuals aged 18 or more!</div>
+  </div>
            
   <label for="address">Enter your Address:</label>
   <textarea id="address" name="address" placeholder="Your Address" rows="3" required></textarea>
@@ -95,8 +107,8 @@
     <option value="Rental">Rental</option>
   </select>
   
-  <input type="submit" value="Submit">
-</form>
+  <button type="submit">Book now</button>
+
         
     </form>
 </body>
