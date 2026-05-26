@@ -1,7 +1,7 @@
 body {
 
     font-family: Arial, sans-serif;
-    color: #333;
+    color:#333;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;  
@@ -18,19 +18,14 @@ body {
 
 }
 .navbar-nav {
-    display: flex !important;
-    flex-direction: row !important;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    margin-left:auto ;
+    
 }
 .nav-item {
-    margin: 0 15px;
+    margin: 0 10px;
 }
- header h1 {
-    margin: 0;
- }
- nav a {
+
+ .nav-link {
     color: white;
     text-decoration: none;
     margin: 0 10px;
@@ -226,7 +221,7 @@ h1 {
 .modal {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 999;
   left: 0;
   top: 0;
   width: 100%;
@@ -234,7 +229,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.8);
   align-items: center;
   justify-content: center;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s center;
 }
 
 /* Modal content (image) */
@@ -243,7 +238,7 @@ h1 {
   width: 90%;
   height: auto;
   max-width: 90%;
-  max-height: 90%;
+  max-height: 80%;
   border-radius: 5px;
   overflow: hidden;
   animation: zoomIn 0.5s;
@@ -301,6 +296,15 @@ h1 {
     background: rgba(0,0,0,0.4);
     padding: 10px;
     border-radius: 10px;
+}
+.feedback-box{
+    max-width:600px;
+    margin:80px auto;
+    padding:30px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
 }
 
 

@@ -19,13 +19,11 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark blue bg-blue">
-            
+             <div class="container">
                 <a class="navbar-expand-lg" href="Breakfast.html">
-                    <a class="d-none d-lg-flex" style="flex: 1; text-align: center;">
-                            <img src="logo.png" alt="Candlewoods logo" style="height: 70px;">
-                        </a>
                     
-                <div class="d-none d-lg-flex" style="flex: 1; justify-content: flex-end;">
+                            <img src="logo.png" alt="Candlewoods logo" height="70">
+                        </a>
                             <ul class="navbar-nav">
                             </ul>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#collapsiblenavbar">
@@ -58,7 +56,8 @@
                         </li>
                     </ul>
                 </div>
-            </div>      
+            </div> 
+          </div>      
         </nav>
 
     </header>
@@ -67,26 +66,26 @@
     
 <h1>BREAKFAST</h1>
     <div class="gallery">
-  <img src="breakfast 1.jpg" alt="Seven colors" class="gallery-item" onclick="openModal('modal1', 'Seven colors')">
-  <img src="breakfast 2.jpg" alt="Toast & Eggs" class="gallery-item" onclick="openModal('modal2', 'Toast & Eggs')" width="600" height="400">
-  <img src="breakfast 3.jpg" alt="Waffles" class="gallery-item" onclick="openModal('modal3', 'Waffels')" width="600" height="400">
+  <img src="breakfast 1.jpg" alt="Seven colors" class="gallery-item" onclick="openModal('modal-breakfast1', 'Seven colors')">
+  <img src="breakfast 2.jpg" alt="Toast & Eggs" class="gallery-item" onclick="openModal('modal-breakfast2', 'Toast & Eggs')" width="600" height="400">
+  <img src="breakfast 3.jpg" alt="Waffles" class="gallery-item" onclick="openModal('modal-breakfast', 'Waffels')" width="600" height="400">
   
 </div>
 
-<div id="modal1" class="modal">
-  <span class="close" onclick="closeModal('modal1')">&times;</span>
+<div id="modal-breakfast1" class="modal">
+  <span class="close" onclick="closeModal('modal-breakfast1')">&times;</span>
   <img src="breakfast 1.jpg" alt="Seven colors" class="modal-content" width="600" height="400">
   <div class="caption"></div>
 </div>
 
-<div id="modal2" class="modal">
-  <span class="close" onclick="closeModal('modal2')">&times;</span>
+<div id="modal-breakfast2" class="modal">
+  <span class="close" onclick="closeModal('modal-breakfast2')">&times;</span>
   <img src="breakfast 2.jpg" alt="Toast & Eggs" class="modal-content" width="600" height="400">
   <div class="caption"></div>
 </div>
 
-<div id="modal3" class="modal">
-  <span class="close" onclick="closeModal('modal3')">&times;</span>
+<div id="modal-breakfast3" class="modal">
+  <span class="close" onclick="closeModal('modal-breakfast3')">&times;</span>
   <img src="breakfast 3.jpg" alt="Waffles" class="modal-content" width="600" height="400">
   <div class="caption"></div>
 </div>
@@ -94,58 +93,58 @@
 <h2>COFFEE</h2>
 
 <div class="gallery">
-  <img src="coffee 1.jpg" alt="Black coffee" class="gallery-item" onclick="openModal('modal1', 'Black coffe')">
-  <img src="coffee 2.jpg" alt="Cappuccino" class="gallery-item" onclick="openModal('modal2', 'Cappuccino')">
-  <img src="coffee 3.jpg" alt="Ice Tea" class="gallery-item" onclick="openModal('modal3', 'Ice Tea')">
-  <img src="coffee 4.jpg" alt="Caffe Latte" class="gallery-item" onclick="openModal('modal4', 'Caffe Latte')">
+  <img src="coffee 1.jpg" alt="Black coffee" class="gallery-item" onclick="openModal('modal-coffee1', 'Black coffe')">
+  <img src="coffee 2.jpg" alt="Cappuccino" class="gallery-item" onclick="openModal('modal-coffee2', 'Cappuccino')">
+  <img src="coffee 3.jpg" alt="Ice Tea" class="gallery-item" onclick="openModal('modal-coffee3', 'Ice Tea')">
+  <img src="coffee 4.jpg" alt="Caffe Latte" class="gallery-item" onclick="openModal('modal-coffee4', 'Caffe Latte')">
 </div>
 
-<div id="modal1" class="modal">
-  <span class="close" onclick="closeModal('modal1')">&times;</span>
+<div id="modal-coffee1" class="modal">
+  <span class="close" onclick="closeModal('modal-coffee1')">&times;</span>
   <img src="coffee 1.jpg" alt="Black coffee" class="modal-content">
   <div class="caption"></div>
 </div>
 
-<div id="modal2" class="modal">
-  <span class="close" onclick="closeModal('modal2')">&times;</span>
+<div id="modal-coffee2" class="modal">
+  <span class="close" onclick="closeModal('modal-coffee2')">&times;</span>
   <img src="coffee 2.jpg" alt="Cappuccino" class="modal-content">
   <div class="caption"></div>
 </div>
 
-<div id="modal3" class="modal">
-  <span class="close" onclick="closeModal('modal3')">&times;</span>
+<div id="modal-coffee3" class="modal">
+  <span class="close" onclick="closeModal('modal-coffee3')">&times;</span>
   <img src="coffee 3.jpg" alt="Ice Tea" class="modal-content">
   <div class="caption"></div>
 </div>
 
-<div id="modal4" class="modal">
-  <span class="close" onclick="closeModal('modal4')">&times;</span>
+<div id="modalcoffee4" class="modal">
+  <span class="close" onclick="closeModal('modal-coffee4')">&times;</span>
   <img src="coffee 4.jpg" alt="Caffe Latte" class="modal-content">
   <div class="caption"></div>
 </div>
 
 <h3>MUSLIE</h3>
     <div class="gallery">
-  <img src="musli 1.jpg" alt="musli" class="gallery-item" onclick="openModal('modal1', 'musli')">
-  <img src="musli 2.jpg" alt="musli" class="gallery-item" onclick="openModal('modal2', 'musli')" width="600" height="400">
-  <img src="musli 3.jpg" alt="musli" class="gallery-item" onclick="openModal('modal3', 'musli')" width="600" height="400">
+  <img src="musli 1.jpg" alt="musli" class="gallery-item" onclick="openModal('modal-muslie1', 'musli')">
+  <img src="musli 2.jpg" alt="musli" class="gallery-item" onclick="openModal('modal-muslie2', 'musli')" width="600" height="400">
+  <img src="musli 3.jpg" alt="musli" class="gallery-item" onclick="openModal('modal-muslie3', 'musli')" width="600" height="400">
   
 </div>
 
-<div id="modal1" class="modal">
-  <span class="close" onclick="closeModal('modal1')">&times;</span>
+<div id="modal-muslie1" class="modal">
+  <span class="close" onclick="closeModal('modal-muslie1')">&times;</span>
   <img src="musli 3.jpg" alt="musli" class="modal-content" width="600" height="400">
   <div class="caption"></div>
 </div>
 
-<div id="modal2" class="modal">
-  <span class="close" onclick="closeModal('modal2')">&times;</span>
+<div id="modal-muslie2" class="modal">
+  <span class="close" onclick="closeModal('modal-muslie2')">&times;</span>
   <img src="musli 2.jpg" alt="musli" class="modal-content" width="600" height="400">
   <div class="caption"></div>
 </div>
 
-<div id="modal3" class="modal">
-  <span class="close" onclick="closeModal('modal3')">&times;</span>
+<div id="modal-muslie3" class="modal">
+  <span class="close" onclick="closeModal('modal-muslie3')">&times;</span>
   <img src="musli 3.jpg" alt="musli" class="modal-content" width="600" height="400">
   <div class="caption"></div>
 </div>
